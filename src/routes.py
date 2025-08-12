@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, session
-from config import IDIOMAS, SECRET_KEY
+from src.config import IDIOMAS, SECRET_KEY
 from game_logic import obtener_palabra_aleatoria, ocultar_palabra
 
 from translations import texts
