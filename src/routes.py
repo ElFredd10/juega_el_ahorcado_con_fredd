@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from src.config import IDIOMAS, SECRET_KEY
-from game_logic import obtener_palabra_aleatoria, ocultar_palabra
+from src.game_logic import obtener_palabra_aleatoria, ocultar_palabra
 
-from translations import texts
+from src.translations import texts
 
 
 def create_app():
