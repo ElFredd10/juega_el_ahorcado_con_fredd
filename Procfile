@@ -1,1 +1,1 @@
-web: echo "test"
+web: gunicorn src.app:app
